@@ -2,7 +2,9 @@ name: Deploy URBEX to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+      - claude/urban-exploration-gps-map-dBN0L
   workflow_dispatch:
 
 permissions:
